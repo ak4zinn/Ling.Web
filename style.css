@@ -1,0 +1,21 @@
+.cabecalho {
+    background-color: #cccccc;
+    width: 600px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.corpo{
+    background-color: #cccccc;
+    width: 600px;
+    padding: 10px;
+}
+
+.rodape{
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    background-color: #888888;
+    color: white;
+}
