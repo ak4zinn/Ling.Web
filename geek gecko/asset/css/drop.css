@@ -1,0 +1,64 @@
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(1, 243, 106);
+    --cor-primaria: rgb(0, 0, 0);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: transparent;
+    transition: all 1s;
+
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+    transition: all 1s;
+
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .9s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+    border-radius: 20px; 
+    text-align: center;
+    transition: all 0.9s;
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+    transition: all 1s;
+
+}
+
+.dp-menu ul li:hover ul {
+    display: flex;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+.dp-menu ul ul {
+    width: 150px
+
+}
+
+.dp-menu ul ul li a {
+    display: block;
+    transition: all 1s;
+
+}
