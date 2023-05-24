@@ -1,0 +1,9 @@
+.section{
+    display: flex;
+    border-image: url(./Lamborghini.webp);
+    
+    justify-content: center;
+}
+.image{
+    border:  10px double #000;
+}

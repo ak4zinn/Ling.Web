@@ -1,0 +1,45 @@
+.cabecalho {
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.corpo {
+    width: 50%;
+    height: 60px;
+    background-color: rgb(26, 83, 206);
+    color: rgb(0, 255, 13);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.rodape {
+    width: 50%;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cabecalho:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.corpo:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.rodape:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
