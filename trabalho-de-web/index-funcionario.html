@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/DigitalStore.png">
+    <link rel="stylesheet" href="./assets/css/style-index-funcionário.css" />
+    <link rel="stylesheet" href="./assets/css/style-index.css" />
+    <title>Digtal Store</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./assets/img/DigitalStore.png" alt="" class="logo-tipo" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"> Início </a>
+            </li>
+            <li class="nav-item">
+              <a href="index-funcionario.html" class="nav-link">
+                Funcionário
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="index-cliente.html" class="nav-link"> Cliente </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="container-contratacao">
+      <div class="titulo-principal">
+        <h1>Venha fazer parte de nossa  equipe</h1>
+        <p class="descricao-contratacao">
+          Até o dia 25 de junho estaremos realizando entrevistas para diversar
+          áreas,<span>não perca essa chance.</span>
+        </p>
+      </div>
+      <div class="contratacao">
+        <form action="" class="form-contratacao">
+          <div class="container-form">
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              name=""
+              id="nome"
+              placeholder="Digite seu nome completo"
+              required
+              class="input-nome"
+            />
+            <label for="email" class="label">Email:</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="usuario@exemplo.com"
+              required
+              class="input-email"
+            />
+            <label for="telefonte">Telefone</label>
+            <input
+              type="tel"
+              name=""
+              id="telefone"
+              placeholder="(00)00000-0000"
+              required
+              class="input-telefone"
+            />
+          </div>
+          <div class="end-form">
+            <label class="label-curriculo">
+              <span class="btn-selecionar">Selecione seu currículo</span>
+              <input type="file" class="input-file">
+            </label>
+            <input type="checkbox" name="" id="" class="inp-notificacoes"/>
+            <p class="checkbox-notificacao">Aceito receber notificações</p>
+          </div>
+          <div class="botoes-da-contratacao">
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-resetar">Apagar tudo</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+@import url(./style-index.css);
+@import url(./style-index-funcionário.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 35, 35);
+}
+
+.titulo-cadastro{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    position: relative;
+}
+.titulo-principal{
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+}
+.titulo-principal span{
+    color: rgb(250, 0, 0);
+}
+label{
+    color: rgb(255, 255, 255);
+}
+
+.cadastro-de-novos-clientes{
+    width: 70%;
+    height: 70vh;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+ }
+ 
+ .cadastro-de-novos-clientes .label{
+     color: aliceblue;
+     display: block;
+     margin: 10px;
+     display: flex;
+     margin-left: 0;
+ }
+ 
+ .input-nome, .input-email, .input-telefone, .input-endereco, .input-data-nasc{
+     width: 100%;
+     height: 40px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+     background: transparen;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto ;
+ }
+
+ .pesquisa-checkbox{
+    display: flex;
+    height: 100px;
+    position: relative;
+    font-size: 16px;
+ }
+
+.label-tiktok{
+    position: absolute;
+    padding-top: 1rem;
+    margin-left: 1rem;
+ }
+ .label-youtube{
+    position: absolute;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    font-size: 16px;
+ }
+ .label-instagram{
+    position: absolute;
+    padding-top: 3rem;
+    margin-left: 1rem;
+    font-size: 16px;
+ }
+ .label-facebook{
+    position: absolute;
+    padding-top: 4rem;
+    margin-left: 1rem;
+    font-size: 16px;
+ }
+ .label-outros{
+    position: absolute;
+    padding-top: 5rem;
+    margin-left: 1rem;
+    font-size: 16px;
+ }
+
+#tiktok{
+    position: absolute;
+    top: 1rem;
+}
+ #youtube{
+    position: absolute;
+    top: 2rem;
+ }
+ #instagram{
+    position: absolute;
+    top: 3rem;
+ }
+ #facebook{
+    position: absolute;
+    top: 4rem;
+ }
+ #outros{
+    position: absolute;
+    top: 5rem;
+ }
+
+ .label-tiktok, .label-youtube, .label-instagram, .label-facebook, .label-outros, #tiktok, #youtube, #instagram, #facebook, #outros:hover{
+    cursor: pointer;
+ }

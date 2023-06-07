@@ -57,6 +57,22 @@ header {
     text-transform: uppercase;
  }
 
+ @media (max-width:680px) 
+ {
+    .nav-link{
+        font-size: 1rem;
+    }
+ }
+ @media (max-width:400px)
+ {
+    .nav-link, .nav-item, .nav-link:hover{
+        font-size: 10px;
+        margin: 0 2px;
+        transform: scale(1.0);
+
+    }
+ }
+
  .nav-item:hover, .nav-link:hover{
     transform: scale(1.2);
     transition: all .5s;
@@ -69,16 +85,16 @@ header {
     display: flex;
  }
 
- .login-button button{
+ .login-button .bnt{
     appearance: none;
     bottom: 5px;
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #f39509;
     border-radius: 20em;
     border-style: none;
-    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-shadow: #c25b33 0 -12px 6px inset;
     box-sizing: border-box;
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-size: 1.1rem;
@@ -87,31 +103,32 @@ header {
     outline: none;
     quotes: auto;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
     text-decoration: none;
     transition: all .15s;
     user-select: none;
 }
 
-.login-button button:hover {
-    background-color: #1679eb;
-    box-shadow: #040d92 0 -6px 8px inset;
-    transform: scale(1.125);
+.login-button, .bnt:hover {
+    background-color: rgb(255, 255, 41)679eb;
+    transform: scale(1.1);
     transition: all .5s;
 }
 
-.login-button button:active {
+.login-button .bnt:active {
     transform: scale(1.025);
 }
 
-.login-button button a{
+.login-button .bnt a{
     text-decoration: none;
-    color: #000000;
+    color: #e9e9e9;
 }
 
 /* primeira sessão da página principal */
 /*css da página de login*/
 .pagina-login{
-    background-color: #ff0c0c;
+    background-color: rgb(3, 35, 35);
 }
 
 .container-login{
@@ -208,7 +225,6 @@ top: -5px;
 }
 .password label input{
     margin-right: 3px;
-    
 }
 .password label a{
     color: #0a19e4;

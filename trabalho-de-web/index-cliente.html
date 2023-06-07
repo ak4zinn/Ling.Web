@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/DigitalStore.png">
+    <link rel="stylesheet" href="./assets/css/style-cliente-cadastro.css" />
+    <title>Cadastro de cliente</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./assets/img/DigitalStore.png" alt="" class="logo-tipo" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"> Início </a>
+            </li>
+            <li class="nav-item">
+              <a href="index-funcionario.html" class="nav-link">
+                Funcionário
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="index-cliente.html" class="nav-link"> Cliente </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="titulo-cadastro">
+        <h1 class="titulo-principal">
+          Não é cliente ainda, cadastre-se logo abaixo, e tenha todos os
+          benefícios de um cliente <span>Digital Store.</span>
+        </h1>
+      </div>
+
+      <div class="cadastro-de-novos-clientes">
+        <form action="" class="form-contratacao">
+          <div class="container-form">
+            <label for="nome" class="label">Nome:</label>
+            <input
+              type="text"
+              name=""
+              id="nome"
+              placeholder="Digite seu nome completo"
+              required
+              class="input-nome"
+            />
+          
+            <label for="email" class="label">Email:</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="usuario@exemplo.com"
+              required
+              class="input-email"
+            />
+            <label for="telefonte" class="label">Telefone</label>
+            <input
+              type="tel"
+              name=""
+              id="telefone"
+              placeholder="(00)00000-0000"
+              required
+              class="input-telefone"
+            />
+            <label for="endereco" class="label">Endereço</label>
+            <input
+              type="text"
+              name=""
+              id="endereco"
+              placeholder="Rua: exemplo, 0000, Bairro: exemplo"
+              required
+              class="input-endereco"
+            />
+            <label for="date-nasc" class="label">Data de nascimento:</label>
+            <input
+              type="date"
+              name=""
+              id="date-nasc"
+              placeholder=""
+              required
+              class="input-data-nasc"
+            />
+            <div class="pesquisa-checkbox">
+              <input type="checkbox" name="" id="tiktok">
+              <label for="tiktok" class="label-tiktok">TikTok</label>
+
+              <input type="checkbox" name="" id="youtube">
+              <label for="youtube" class="label-youtube">Youtube</label>
+
+              <input type="checkbox" name="" id="instagram">
+              <label for="instagram" 
+              class="label-instagram">Instagram</label>
+
+              <input type="checkbox" name="" id="facebook">
+              <label for="facebook"
+              class="label-facebook">Facebook</label>
+
+              <input type="checkbox" name="" id="outros">
+              <label for="outro"
+              class="label-outros">Outros</label>
+            </div>
+            <div class="botoes-da-contratacao">
+              <button type="submit" class="btn-enviar">Enviar</button>
+              <button type="reset" class="btn-resetar">Apagar tudo</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

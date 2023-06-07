@@ -1,0 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login-cadastro-new{
+    display: flex;
+    width: 800px;
+}
