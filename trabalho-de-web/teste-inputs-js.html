@@ -9,24 +9,14 @@
       var senha = document.getElementById("senha").value;
 
       // Verifica se o email e senha correspondem a valores esperados
-      if (email === "patrickpinheiro446@gmail.com" && senha === "1") {
-        alert("Autenticação bem-sucedida!");
+      if (email === "marcelo@gmail.com" && senha === "1") {
+        alert("Bem vindo ao clube dos corno");
       } else {
         alert("Email ou senha incorretos. Tente novamente.");
       }
     }
-
-    document.getElementById("frmEmail").onsubmit = function () {
-      let frm = document.getElementById('frmEmail').elements;
-      document.getElementById("resultado").innerHTML = "O e-mail digitado é: " + frm['email'].value;
-      document.getElementById("frmPassword").onsubmit = function () {
-        let frmSenha = document.getElementById('frmPassword').elements;
-        document.getElementById("resultado").innerHTML = "Olá, " + frmSenha['nome'].value + "<br />" +
-          "sua senha é: " + frmSenha['senha'].value;
-        return false;
-      };
   </script>
-</head>
+</head>   
 
 <body>
   <h2>Autenticação</h2>
@@ -40,26 +30,7 @@
     <input type="button" value="Autenticar" onclick="autenticar()" />
   </form>
 
-  <form id="frmEmail">
-    <label for="email">Informe o seu e-mail:</label>
-    <input type="email" id="email" name="email" multiple />
-    <input type="submit" value="Exibir o e-mail informado" />
-  </form>
-  <h2 id="resultado"></h2>
-  <form id="frmPassword">
-    <div>
-      <label for="nome">Informe o seu nome:</label>
-      <input type="text" id="nome" name="nome" />
-    </div>
-    <div>
-      <label for="senha">Informe a sua senha:</label>
-      <input type="password" id="senha" name="senha" />
-    </div>
-    <div>
-      <input type="submit" value="Exibir os dados digitados" />
-    </div>
-  </form>
-  <p id="resultado"></p>
+  
 </body>
 
 </html>
